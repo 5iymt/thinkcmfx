@@ -1,7 +1,7 @@
 <?php
 
-namespace plugins\Demo\Controller; //Demo插件英文名，改成你的插件英文就行了
-use Api\Controller\PluginController;//插件控制器基类
+namespace plugins\Yichat\Controller; 
+use Api\Controller\PluginController;
 
 class AdminIndexController extends PluginController{
 	
@@ -15,8 +15,8 @@ class AdminIndexController extends PluginController{
 	}
 	
 	function index(){
-		//$plugin_demo_model=D("plugins://Demo/PluginDemo");//实例化自定义模型PluginDemo ,需要创建plugin_demo表
-		//$plugin_demo_model->test();//调用自定义模型PluginDemo里的test方法
+		//$plugin_yichat_model=D("plugins://Yichat/PluginYichat");//实例化自定义模型PluginYichat ,需要创建plugin_demo表
+		//$plugin_yichat_model->reply();
 		
 		$users_model=D("Users");//实例化Common模块下的Users模型
 		//$users_model=D("Common/Users");//也可以这样实例化Common模块下的Users模型

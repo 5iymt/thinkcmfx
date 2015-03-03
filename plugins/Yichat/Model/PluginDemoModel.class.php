@@ -1,7 +1,7 @@
 <?php
-namespace plugins\Demo\Model;//Demo插件英文名，改成你的插件英文就行了
+namespace plugins\Yichat\Model;//Yichat插件英文名，改成你的插件英文就行了
 use Common\Model\CommonModel;//继承CommonModel
-class PluginDemoModel extends CommonModel{ //Demo插件英文名，改成你的插件英文就行了,插件数据表最好加个plugin前缀再加表名,这个类就是对应“表前缀+plugin_demo”表
+class PluginYichatModel extends CommonModel{ 
 	
 	//自动验证
 	protected $_validate = array(
@@ -14,7 +14,7 @@ class PluginDemoModel extends CommonModel{ //Demo插件英文名，改成你的�
 	}
 	
 	//自定义方法
-	function test(){
-		echo "hello";
+	function reply(){
+		echo "hello 5iymt！";
 	}
 }

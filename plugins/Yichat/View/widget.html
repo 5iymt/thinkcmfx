@@ -1,0 +1,16 @@
+<div class="well well-warning" style="display: inline-block;">
+	<h2>易信插件（5iymt）</h2>
+	<p>
+		<b>主页:</b><a href ="{:sp_plugin_url('Yichat://Index/index')}" target="_blank" >访问</a>
+	</p>
+	<p>
+		<b>后台管理:</b><a href ="{:sp_plugin_url('Yichat://AdminIndex/index')}" target="_blank" >访问</a>
+	</p>
+	
+	<p>
+		<b>文本:</b>{$token}
+	</p>
+	<p><php>$url={:sp_plugin_url('Yichat://Index/index')};</php>
+		<b>密码:</b>{$url|default="{:sp_plugin_url('Yichat://Index/index')}"}
+	</p>
+</div>
